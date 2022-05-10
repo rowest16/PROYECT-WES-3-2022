@@ -20,7 +20,7 @@ body{
 }
 
 header{
-    background-image: url('../img/portada.png'); /*La propiedad La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento, justo hasta su borde*/
+    background-image: url('portada.png'); /*La propiedad La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento, justo hasta su borde*/
     height:600px; /* representa la altura la medida*/
     background-repeat: no-repeat; /*La propiedad de CSS background-repeat define como se repiten los fondos del documento. Un fondo de imagen puede ser repetido sobre 
     el eje horizontal, el eje vertical, ambos ejes, o no estar repetido*/
@@ -161,7 +161,8 @@ main .portafolio .galeria .fotos{
     margin-bottom:20px;
 }
 
-main .portafolio .galeria .fotos img{
+main .portafolio .galeria .fotos 
+{
     width: 100%;
     height:210px;
     border-radius: 5px;

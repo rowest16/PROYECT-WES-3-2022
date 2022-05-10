@@ -174,7 +174,7 @@ main .portafolio .galeria .fotos img:hover{
 
 footer .contacto{
     height:600px;
-    background-image: url(../img/footer.png);
+    background-image: url(footer.png);
     background-position:center;
     padding:60px 0;
 }
